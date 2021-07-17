@@ -7,7 +7,7 @@ interface SideBarProps {
     name: 'action' | 'comedy' | 'documentary' | 'drama' | 'horror' | 'family';
     title: string;
   }>,
-  clickFunction: Function
+  clickFunction: (id: number) => void;
 }
 
 export function SideBar(props: SideBarProps) {
