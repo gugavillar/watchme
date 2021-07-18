@@ -1,6 +1,6 @@
 # WatchMe
 
-![Imagem inicial da aplicação](https://github.com/gugavillar/trilha-react-desafio-02/blob/main/assets/inicio.png)
+![Imagem inicial da aplicação](/assets/inicio.png)
 
 ## Tecnologias
 
@@ -37,7 +37,15 @@ O app estará disponível no seu browser pelo endereço http://localhost:8080.
 ## 💻 Projeto
 
 O WatchMe é um projeto para gerenciar lista de filmes.
-A aplicação conta com uma barra lateral que tem todas as categorias de filme que ao clicar, faz o carregamento da lista de filmes daquela categoria.
-Foi utilizado uma fakeAPI para consumir os dados e fazer o carregamento dinâmico dos filmes.
+
+As funcionalidades do projeto são:
+
+-  Filtrar a lista de filmes de acordo com a categoria escolhida;
+
+Esse projeto tem como objetivo consolidar conhecimentos sobre:
+
+-  Componetização do React;
+-  A passagem de propriedades entre componentes;
+-  Consumo de dados via fake API do JSON server
 
 Esse foi um projeto realizado dentro do Ignite da Rocketseat.
