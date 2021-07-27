@@ -15,8 +15,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Clone o projeto e acesse a pasta do mesmo.
 
 ```
-$ git clone https://github.com/gugavillar/trilha-react-desafio-02
-$ cd trilha-react-desafio-02
+$ git clone https://github.com/gugavillar/watchme
+$ cd watchme
 ```
 
 Para iniciá-lo, siga os passos abaixo:
