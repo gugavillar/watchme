@@ -10,22 +10,18 @@ interface SideBarProps {
   clickFunction: (id: number) => void;
 }
 
-export function SideBar(props: SideBarProps) {
-  // Complete aqui
-  function handleClick(id: number) {
-    props.clickFunction(id);
-  }
+export function SideBar({ genres, selectedGenreId, clickFunction }: SideBarProps) {
   return (
     <nav className="sidebar">
       <span>Watch<p>Me</p></span>
       <div className="buttons-container">
-        {props.genres.map(genre => (
+        {genres.map(genre => (
           <Button
             key={String(genre.id)}
             title={genre.title}
             iconName={genre.name}
-            onClick={() => handleClick(genre.id)}
-            selected={props.selectedGenreId === genre.id}
+            onClick={() => clickFunction(genre.id)}
+            selected={selectedGenreId === genre.id}
           />
         ))}
       </div>
